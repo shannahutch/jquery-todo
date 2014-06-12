@@ -1,0 +1,50 @@
+body {
+  background-color: #58FA82;
+}
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+
+}
+label {
+  padding-left: 35%;
+}
+#todoItem {
+  height: 1.5em;
+  width: 10em;
+  /*margin-left: 20%;*/
+  font-size: 22px;
+  color: #DF3A01;
+  border-radius: 10px 10px 10px 10px;
+}
+
+h2 {
+  font-family: fantasy;
+  padding-left: 10%;
+}
+
+hr {
+  border: 0;
+ /* width: 80%;*/
+  color: #f00;
+  background-color: #f00;
+  height: 5px;
+}
+
+li {
+  font-size: 25px;
+  padding-left: 3.5em;
+  list-style-type: none;
+  font-family: cursive;
+  color: #FA5858;
+}
+
+.todo_done{
+text-decoration:line-through;
+/*color: black;
+*/}
+
+img {
+  padding-left: 4%;
+}
