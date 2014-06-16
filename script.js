@@ -58,4 +58,32 @@ $(document).ready(function() {
         $(e.target).parent().remove();
     });
 
+    // $("#bind").bind("click",function(){
+    //     alert("bind function");
+    // });
+
+    $("#on").on( "click", function() {
+        alert("On Function!");
+
+    });
+
+    $("#BoxId").bind({
+        click : function(){
+         $('span').text("Single Clicked");
+     },
+        dblclick : function(){
+         $('span').text("Double Clicked");
+     }
+    });
+      $("#btn1").click(function(){
+    $("#box").animate({height:"300px"});
+  });
+  $("#btn2").click(function(){
+    $("#box").animate({height:"100px"});
+  });
+
+      $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+
 });
