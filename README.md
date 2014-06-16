@@ -34,7 +34,6 @@ http://api.jquery.com/delegate/
 
 $(document).on(event, selector, function(){ //do stuff here })
 
-.live() - 
 
 .aniamte - allows you to set certain animations with Jquery
     
