@@ -49,11 +49,27 @@ img {
   padding-left: 4%;
 }
 
+#on {
+  padding-left: 25%;
+}
+
+#BoxId {
+  font-size: 25px;
+  padding-left: 45%;
+  font-family: cursive;
+}
+
+span {
+  font-size: 25px;
+  padding-left: 50%;
+  color: #FFFF00;
+}
+
 #panel,#flip
 {
 padding:5px;
 text-align:center;
-background-color:#e5eecc;
+background-color:#00BFFF;
 border:solid 1px #c3c3c3;
 }
 #panel

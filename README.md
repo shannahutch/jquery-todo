@@ -25,6 +25,8 @@ Documentation- http://api.jquery.com/bind/
 $( "table" ).delegate( "td", "click", function() {
   $( this ).toggleClass( "chosen" );
 });
+Event delegation explained-
+http://learn.jquery.com/events/event-delegation/
 
 http://api.jquery.com/delegate/
 
@@ -46,4 +48,13 @@ $(document).on(event, selector, function(){ //do stuff here })
   http://www.w3schools.com/Jquery/tryit.
   asp?filename=tryjquery_eff_animate
 
-extra notes- http://learn.jquery.com/events/event-delegation/
+
+
+..slideToggle- Aloows you to open ah html area/box by lcicking it.  THere is also a simple  .slideDown() and .slideUp() handler but the slideToggle allows you to open and close the space. 
+
+http://www.w3schools.com/Jquery/jquery_slide.asp
+
+.attr() - gets the value of a the first element in the set of matched elements. 
+.addClass- adds specific clsses to of the matches to the matched elements
+
+
